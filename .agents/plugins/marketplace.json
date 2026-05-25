@@ -1,0 +1,20 @@
+{
+  "name": "bolivartech-plugins",
+  "interface": {
+    "displayName": "BolivarTech Plugins"
+  },
+  "plugins": [
+    {
+      "name": "magi",
+      "source": {
+        "source": "local",
+        "path": "./plugins/magi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
