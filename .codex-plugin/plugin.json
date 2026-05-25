@@ -1,0 +1,39 @@
+{
+  "name": "magi",
+  "version": "3.0.1",
+  "description": "Multi-perspective analysis system for Codex. Spawns three analytical perspectives (Melchior, Balthasar, Caspar) for code, design, and decision review, then synthesizes a consensus verdict.",
+  "author": {
+    "name": "Julian Bolivar",
+    "url": "https://github.com/BolivarTech"
+  },
+  "homepage": "https://github.com/BolivarTech/magi-codex",
+  "repository": "https://github.com/BolivarTech/magi-codex",
+  "license": "MIT OR Apache-2.0",
+  "keywords": [
+    "code-review",
+    "multi-perspective",
+    "analysis",
+    "decision-making",
+    "magi"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MAGI",
+    "shortDescription": "Three-perspective review and consensus for Codex.",
+    "longDescription": "MAGI runs a structured multi-perspective analysis with Melchior for technical rigor, Balthasar for pragmatic maintainability, and Caspar for risks and failure modes. It is intended for non-trivial code reviews, design decisions, trade-offs, and decisions where disagreement is useful.",
+    "developerName": "BolivarTech",
+    "category": "Productivity",
+    "capabilities": [
+      "Code Review",
+      "Analysis",
+      "Decision Support"
+    ],
+    "websiteURL": "https://github.com/BolivarTech/magi-codex",
+    "defaultPrompt": [
+      "MAGI review this change",
+      "Give me three perspectives on this design",
+      "MAGI analyze this trade-off"
+    ],
+    "brandColor": "#7C3AED"
+  }
+}
